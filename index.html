@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator App</title>
   </head>
   <body>
-    <div>
+    <div class="first-num">
       <label for="numberOne">Enter Number:</label>
       <input type="text" name="numberOne" id="numberOne" />
     </div>
-    <div>
+    <div class="second-num">
       <label for="numberTwo">Enter Number:</label>
       <input type="text" name="numberTwo" id="numberTwo" />
     </div>
-    <div id="buttons">
-      <button onclick="add()" id="myBtn">+</button>
+    <div class="buttons">
+      <button onclick="add()" id="addBtn">+</button>
       <button onclick="subtract()" id="subBtn">-</button>
       <button onclick="multiply()" id="multBtn">*</button>
       <button onclick="divide()" id="divBtn">/</button>
     </div>
-    <div>
+    <div class="result">
       <p id="print-result"></p>
     </div>
     <script src="./index.js" defer></script>

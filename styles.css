@@ -1,0 +1,51 @@
+.first-num,
+.second-num {
+  margin: 0.5em;
+}
+
+#addBtn,
+#subBtn,
+#multBtn,
+#divBtn {
+  background-color: rgb(196, 196, 93);
+  font-size: 20pt;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#addBtn:hover,
+#subBtn:hover,
+#multBtn:hover,
+#divBtn:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px inset;
+}
+
+input {
+  margin-top: 1em;
+  padding-left: 0.5em;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(240, 233, 233);
+  font-size: 20pt;
+}
+
+label {
+  margin-left: 1em;
+  padding-right: 0.5em;
+  font-size: 20pt;
+  font-weight: bold;
+  color: rgb(99, 113, 113);
+}
+
+.buttons {
+  margin-left: 2.5em;
+  margin-top: 1em;
+}
+
+#print-result {
+  margin: 1em;
+  font-size: 40pt;
+  font-weight: 700;
+}
